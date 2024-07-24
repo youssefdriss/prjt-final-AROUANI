@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="kidsshop.css">
+</head>
+<body>
+    <div class="shopping-cart">
+        <h2 class="ktiba2">Kids</h2>
+        <div id="cart-items"></div>
+        <div id="cart-total">Total: $0.00</div>
+        <div class="product-list">
+            <h2 class="ktiba">SHIRTS</h2>
+            <div class="product">
+                <img src="./product7.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3 class="ktiba">Product 1</h3>
+                    <p class="ktiba">$19.99</p>
+                    <button class="btn" onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./product8.jpg" alt="Product 2">
+                <div class="product-info">
+                    <h3 class="ktiba">Product 2</h3>
+                    <p class="ktiba">$29.99</p>
+                    <button class="btn" onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./product9.jpg" alt="Product 3">
+                <div class="product-info">
+                    <h3 class="ktiba">Product 3</h3>
+                    <p class="ktiba">$24.99</p>
+                    <button  class="btn" onclick="addToCart('Product 3', 24.99)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="womenshop.js"></script>
+</body>
+</html>
