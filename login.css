@@ -1,0 +1,19 @@
+.b{
+    background-color: black;
+    padding-top: 100px;
+}
+.form-label {
+  color: rgb(0, 0, 0); /* Change label text color to white */
+}
+
+.form-control {
+  color: white; /* Change input text color to white */
+  background-color: #495057; /* Dark background color */
+  border-color: #495057; /* Dark border color */
+}
+
+.form-check-input {
+  /* Optional: Change checkbox color */
+  background-color: #495057;
+  border-color: #495057;
+}
