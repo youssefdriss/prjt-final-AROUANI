@@ -1,3 +1,4 @@
+// Array to store cart items
 let cartItems = [];
 
 // Function to add item to cart
@@ -35,7 +36,7 @@ function renderCart() {
         cartItem.classList.add('cart-item');
 
         cartItem.innerHTML = `
-            <img src="kids${index + 1}.jpg" alt="${item.name}">
+            <img src="women${index + 1}.jpg" alt="${item.name}">
             <div class="cart-item-info">
                 <h4>${item.name}</h4>
                 <p>$${item.price.toFixed(2)}</p>
@@ -89,7 +90,7 @@ function renderCart() {
         cartItem.classList.add('cart-item');
 
         cartItem.innerHTML = `
-            <img src="kids${index + 1}.jpg" alt="${item.name}">
+            <img src="women${index + 1}.jpg" alt="${item.name}">
             <div class="cart-item-info">
                 <h4>${item.name}</h4>
                 <p>$${item.price.toFixed(2)}</p>
