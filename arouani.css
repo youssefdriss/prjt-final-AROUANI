@@ -178,7 +178,6 @@
 .carousel-control.prev {
   left: 10px;
 }
-
 .carousel-control.next {
   right: 10px;
 }
@@ -321,3 +320,14 @@ ul{
 .law{
   display: flex;
   justify-content: space-between;}
+  /* Remove hover effect from carousel control buttons */
+  .carousel-control-prev,
+  .carousel-control-next {
+    transition: none; /* Disable transition */
+  }
+
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background: transparent; /* Remove any background changes */
+    opacity: 1; /* Ensure the button is fully opaque */
+  }
